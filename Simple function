@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+
+//write a function that takes two letters as paramters
+//returns nothing
+//and prints out the characters next to each other
+
+//1) Write the declaration 
+void TwoLetters(char letter1, char letter2);
+
+
+int main() {
+	char l1, l2; //Set up variables to hold user inputs
+	cout << "enter two letters" << endl;//Ask the user
+	cin >> l1;//Stores first letter input as a variable 
+	cin >> l2;//Stores second letter input as a variable
+
+	//call the function
+	TwoLetters('M', 'R');
+
+}
+
+//2) write the def (DEF MUST BE UNDER MAIN)
+void TwoLetters(char letter1, char letter2) {
+	cout << letter1 << letter2 << endl;
+}
